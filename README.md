@@ -1,0 +1,1 @@
+# plugins-szechenyi-2020-logo
