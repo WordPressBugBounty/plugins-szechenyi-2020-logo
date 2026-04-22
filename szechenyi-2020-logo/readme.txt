@@ -2,23 +2,25 @@
 
 Contributors: foldesistudio
 Donate link: https://www.paypal.com/donate/?business=47DJVT44PCDGW&no_recurring=0&currency_code=HUF
-Tags: floating content, floating logo, floating sidebar, floating wordpress sidebar, hungary, logo, popup, scrolling banner, scrolling sidebar, static block, sticky advertising, sticky sidebar, szechenyi, szechenyi 2020, szechenyi 2020 logo, wordpress sticky plugin
-Requires at least: 5.0
-Tested up to: 6.2
-Stable tag: 1.1
-Requires PHP: 7.0
+Tags: floating content, floating logo, floating sidebar, floating wordpress sidebar, hungary, logo, popup, scrolling banner, scrolling sidebar, static block, sticky advertising, sticky sidebar, szechenyi, szechenyi 2020, szechenyi 2020 logo, wordpress sticky plugin, Széchenyi Plusz, Széchenyi Terv, Széchenyi Terv Plusz, Demján Sándor, Demján Sándor Program
+Requires at least: 5.2
+Tested up to: 6.9
+Stable tag: 1.2
+Requires PHP: 7.4
 License: Attribution 4.0 International (CC BY 4.0)
 License URI: https://creativecommons.org/licenses/by/4.0/
 
-This plugin places the Széchenyi 2020 logo on the frontend of any position.
+This WordPress plugin places a Széchenyi 2020 logo on the frontend at any position.
 
 == Description ==
 
-Széchenyi 2020 Logo is an all-in-one plug-in with easy-to-use controls. It helps you place a Széchenyi logo as a sticky footer or sticky header.
+=== Széchenyi 2020 Logo ===
 
-If you would like, you can modify the default placing parameters manually by using the admin page or WP-CLI commands.
+The Széchenyi 2020 Logo plugin is an all-in-one solution with user-friendly controls that enables you to place a Széchenyi logo as a sticky footer or header on your website.
 
-All parameters in settings are stored as transients. It means the final rendered HTML and CSS source codes on the frontend are stored in the cache system of WordPress.
+Additionally, you can modify the default placement parameters manually using the admin page or WP-CLI commands.
+
+All settings parameters are stored as transients, which means that the final rendered HTML and CSS source codes on the frontend are cached by WordPress for improved performance.
 
 == Languages ==
 
@@ -41,6 +43,10 @@ This is an unofficial plug-in and a completely personal hobby project. Szécheny
 5. Modify default parameters manually (optional)
 
 == Frequently Asked Questions ==
+
+= How to use it for other logos? =
+
+This plugin displays only the Széchenyi 2020 logo. However, you can contact us on [Földesi Videó Stúdió](https://foldesistudio.hu/kapcsolat/) official website to request a custom version of this plugin for other logos.
 
 = Can I control the floating logo to display only on the selected pages / posts / categories? =
 
@@ -68,12 +74,22 @@ No, it is not. This is a hobby project.
 
 Széchenyi logos source from szechenyi2020.hu
 
+= Where do I report security bugs found in this plugin? =
+
+Please report security bugs found in the source code of the Széchenyi 2020 Logo plugin through the [Patchstack Vulnerability Disclosure Program](https://patchstack.com/database/vdp/18e9899f-f66d-499f-a145-640e7cc50274). The Patchstack team will assist you with verification, CVE assignment, and notify the developers of this plugin.
+
 == Screenshots ==
 
 1. Admin settings for the floating logo
 2. This is an animated screenshot of the frontend
 
 == Changelog ==
+
+= 1.2 =
+* General security improvements and including a fix for an LFI vulnerability
+* Added an optional close button for the floating logo
+* Added widget support
+* Added Gutenberg block support
 
 = 1.1 =
 * Added WP-CLI support (see `wp szechenyi-2020-logo help` command)
@@ -84,6 +100,10 @@ Széchenyi logos source from szechenyi2020.hu
 * Initial Release
 
 == Upgrade Notice ==
+
+= 1.2 =
+* General security improvements and including a fix for an LFI vulnerability
+* Added a Gutenberg block, widget support and an optional close button for the floating logo
 
 = 1.1 =
 * Added WP-CLI support and some improvements
